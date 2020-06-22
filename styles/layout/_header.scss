@@ -1,0 +1,47 @@
+@import 'base/variables';
+
+.header {
+	align-items: center;
+  justify-content: space-between;
+  @media only screen and (max-width: 640px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.nav-icon {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  overflow: visible;
+  backface-visibility: hidden;
+  position: relative;
+  transition: ease-in-out .2s;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  -moz-transition: -moz-transform .2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+}
+
+.nav-plus:hover {
+  color: $green;
+}
+.nav-heart:hover {
+  color: $red;
+}
+
+.content-header {
+  flex-wrap: nowrap;
+  & .fa-times {
+    cursor: pointer;
+    font-size: 2rem;
+    color: $light-blue;
+    transition: ease-in-out .2s;
+    &:hover {
+      color: $lighter-blue;
+    }
+  }
+}

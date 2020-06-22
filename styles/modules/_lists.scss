@@ -1,0 +1,8 @@
+.favourites-list {
+  width: 100%;
+  list-style: none;
+  & .favourites-item {
+    font-size: 1.25rem;
+    padding-top: 0.5rem;
+  }
+}

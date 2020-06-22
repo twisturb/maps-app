@@ -1,0 +1,40 @@
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 3rem;
+  color: mix(#fff, #2a5877, 85%);
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #2a5877, 94%),
+		0.005em 0.005em 0 mix(#fff, #2a5877, 60%),
+		0.01em 0.01em 0 mix(#fff, #2a5877, 62%), 
+		0.015em 0.015em mix(#fff, #2a5877, 64%), 
+		0.02em 0.02em 0 mix(#fff, #2a5877, 66%), 
+		0.025em 0.025em 0 mix(#fff, #2a5877, 68%),
+		0.03em 0.03em 0 mix(#fff, #2a5877, 70%),
+		0.035em 0.035em 0 mix(#fff, #2a5877, 72%);
+}
+
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: mix(#fff, #2a5877, 85%);
+	text-shadow: 
+		-0.0075em 0.0075em 0 mix(#fff, #2a5877, 94%),
+		0.005em 0.005em 0 mix(#fff, #2a5877, 60%),
+		0.01em 0.01em 0 mix(#fff, #2a5877, 62%), 
+		0.015em 0.015em mix(#fff, #2a5877, 64%), 
+		0.02em 0.02em 0 mix(#fff, #2a5877, 66%), 
+		0.025em 0.025em 0 mix(#fff, #2a5877, 68%),
+		0.03em 0.03em 0 mix(#fff, #2a5877, 70%),
+		0.035em 0.035em 0 mix(#fff, #2a5877, 72%);
+}
+
+p {
+  font-weight: 400;
+}

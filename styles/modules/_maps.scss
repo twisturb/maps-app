@@ -1,0 +1,58 @@
+@import 'base/variables';
+
+#map {
+  height: 400px;
+  width: 100%;
+  border: 2px solid $white;
+  & .map-info {
+    width: 200px;
+    height: 150px;
+    color: $dark-grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    font-size: 1rem;
+    & .info-texts {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      & strong, text {
+        width: 100%;
+      }
+    }
+    & .info-icons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      & .fa-pen {
+        color: $green;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      & .fa-trash {
+        color: $red;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      & .red {
+          color: $red;
+          transition: ease-in-out .2s;
+          &:hover {
+            cursor: pointer;
+            color: $grey;
+          }
+        }
+      & .grey {
+        color: $grey;
+        transition: ease-in-out .2s;
+        &:hover {
+          cursor: pointer;
+          color: $red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import 'base/variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 14px;
+  background-color: $blue;
+  font-family: 'Roboto', sans-serif;
+  color: $white;
+  margin: 0;
+  letter-spacing: 1px;
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media only screen and (max-width: 640px) {
+    font-size: 12px;
+  }
+}
